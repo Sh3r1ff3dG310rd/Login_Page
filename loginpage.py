@@ -81,12 +81,12 @@ fbButton.place(x = 590, y = 440)
 
 #Google logo
 google_logo = PhotoImage(file = 'google.png')
-gButton = Button(login_page, image=google_logo, bg = 'white', cursor = 'hand2')
+gButton = Button(login_page, image = google_logo, bg = 'white', cursor = 'hand2')
 gButton.place(x = 720, y = 440)
 
 #Github logo
 gh_logo = PhotoImage(file = 'GH.png')
-ghButton = Button(login_page,image=gh_logo,bg = 'white', cursor = 'hand2')
+ghButton = Button(login_page, image = gh_logo, bg = 'white', cursor = 'hand2')
 ghButton.place(x = 855, y = 440)
 
 #Sign up for new account
